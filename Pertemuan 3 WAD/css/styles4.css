@@ -1,0 +1,17 @@
+/* font */
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+h2{
+    text-align: left;
+    color: blanchedalmond;
+}
+h3{
+    text-align: right;
+    color: violet;
+}
+p{
+    text-align: center;
+    color: blanchedalmond;
+}
