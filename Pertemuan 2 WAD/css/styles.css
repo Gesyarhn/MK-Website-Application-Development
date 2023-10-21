@@ -1,0 +1,82 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bio td{
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.tabel{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tabel-header{
+    background-color: beige;
+    /* padding: 200px; */
+    text-align: center;
+}
+
+.tabel-konten{
+    background-color: azure;
+}
+
+.tabel-genap{
+    background-color: #efefef;
+}
+
+.tabel-konten td{
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+td{
+    padding: 10px;
+}
+
+.tabel-konten .nomor{
+    text-align: center;
+}
+
+.tabel-header th{
+    padding: 15px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.data{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+
+.gambar img{
+    height: 300px;
+    width: 200px;
+}
+
+.ttd img{
+    height: 100px;
+}
+
+.penutup{
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+}
+
+
+/* table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
