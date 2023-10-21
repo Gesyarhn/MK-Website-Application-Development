@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    background-image: url('../img/gedung.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* font */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aquamarine;
+    text-decoration: underline;
+    text-indent: 30px;
+}
+h2{
+    text-align: left;
+    color: blanchedalmond;
+    text-transform: initial;
+}
+h3{
+    text-align: right;
+    color: violet;
+    text-decoration: line-through;
+}
+p{
+    text-align: center;
+    color: blanchedalmond;
+    letter-spacing: normal;
+}
