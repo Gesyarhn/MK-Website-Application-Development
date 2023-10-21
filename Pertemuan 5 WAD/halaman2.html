@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change HTML Attributes</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Javascript can change images</h1>
+        <img id="myImage" onclick="changeImage()" src="sepeda.png" width="150">
+        <p>click the image to change image.</p>
+        <script>
+            function changeImage() {
+                var image = document.getElementById("myImage");
+                if (image.src.match("sepeda.png")) {
+                    // console.log('tes')
+                    image.src = "motor.jpg";
+                } else {
+                    image.src = "sepeda.png";
+                }
+            }
+        </script>
+    </body>
+</html>

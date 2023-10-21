@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change HTML styles</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>What can Javascript do?</h1>
+        <p id="demo">Javascript can change the style of an HTML element.</p>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("demo");
+                x.style.fontsize = "25px";
+                x.style.color = "Red";
+            }
+        </script>
+
+        <button type="button" onclick="myFunction()">Klik disini!</button>
+    </body>
+</html>

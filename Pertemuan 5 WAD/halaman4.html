@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validate Data</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Javascript can Validate Input</h1>
+        <p>Tolong masukan angka dari 1 sampai 10:</p>
+        <input id="numb" type="number">
+        <button type="button" onclick="myFunction()">Submit</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var x, text;
+
+                x = document.getElementById("numb").value;
+
+                if (isNaN(x) || x < 1 || x > 10) {
+                    text = "Input is not valid";
+                } else {
+                    text = "Input Valid";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+    </body>
+</html>
